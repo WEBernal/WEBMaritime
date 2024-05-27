@@ -1,6 +1,17 @@
 body { 
     color: #34374C;
 }
+
+.rosa-logo img {
+    width: 6rem;
+    z-index: -1;
+    
+}
+
+.navbar-brand img {
+    margin-left: 1rem;
+
+}
  
 .carousel-container {
     height: 90%; 
