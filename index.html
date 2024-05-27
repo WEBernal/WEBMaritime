@@ -20,13 +20,13 @@
 <body>
     <!-- Header -->
     <!-- Barra de navegacion -->
-    <nav class="navbar sticky-top bg-body-tertiary">
+    <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/log5.svg" width="200rem" alt="Logo Welcomed English Bernal"
                     title="Welcomed English Bernal logo" class="d-inline-block align-text-top" />
             </a>
-            <ul class="nav nav-underline justify-content-end">
+            <ul class="nav nav-underline justify-content-center justify-content-md-end">
                 <li class="nav-item">
                     <a class="nav-link active text-dark" aria-current="page" href="#">Inicio</a>
                 </li>
@@ -34,7 +34,7 @@
                     <a class="nav-link text-dark" href="#testimonios">Testimonios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#contenidos">Contenidos</a>
+                    <a class="nav-link text-dark" href="#contenidos">Cursos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="#niveles">Niveles</a>
@@ -75,49 +75,49 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/1.jpg" class="d-block " alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h1>English Maritime Course</h1>
                     <p class="lead">Cursos para profesionales de la industria marítima</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/2.jpg" class="d-block " alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h1>Mejora tu carrera en el sector marítimo</h1>
                     <p class="lead">Desarrolla habilidades de escucha y habla</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/3.jpg" class="d-block " alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h1>Términos náuticos esenciales para la comunicación</h1>
                     <p class="lead">Impulsa tu carrera hacia nuevos horizontes con habilidades lingüísticas sólidas</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/4.jpg" class="d-block " alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h1>Comunicación clara con autoridades y tripulación</h1>
                     <p class="lead">Vocabulario técnico marítimo, mejor pronunciación y más fluidez para ingenieros</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/5.jpg" class="d-block " alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h1>Cursos basados en la lista SMCP de la IMO</h1>
                     <p class="lead">Aprende vocabulario esencial marítimo</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/6.jpg" class="d-block " alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h1>Avanza a través de nuestros niveles de inglés marítimo</h1>
                     <p class="lead">Preparación específica para nuevos desafíos</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/pilot3.jpg" class="d-block " alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h1>Inglés para equipos y tripulaciones multinacionales</h1>
                     <p class="lead">Invierte en tu futuro profesional con nuestro programa de inglés adaptado a la
                         industria marítima</p>
@@ -147,9 +147,10 @@
                     <div class="card border-light mb-3">
                         <div class="card-body">
                             <img src="assets/star2.svg" width="50px" height="50px" class="card-img-top" alt="...">
-                            <p class="card-text text-center">"Por fin un curso de inglés marítimo. Me ayudó a pasar el exámen para
+                            <p class="card-text text-center">"Por fin un curso de inglés marítimo. Me ayudó a pasar el
+                                exámen para
                                 Práctico ¡Excelente!"</p>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -157,9 +158,10 @@
                     <div class="card border-light mb-3">
                         <div class="card-body">
                             <img src="assets/star2.svg" width="50px" height="50px" class="card-img-top" alt="...">
-                            <p class="card-text text-center">"Lo que necesitaba para seguir creciendo en mi profesión de capitán."
+                            <p class="card-text text-center">"Lo que necesitaba para seguir creciendo en mi profesión de
+                                capitán."
                             </p>
-                            
+
                         </div>
 
                     </div>
@@ -170,7 +172,7 @@
                             <img src="assets/star2.svg" width="50px" height="50px" class="card-img-top" alt="...">
                             <p class="card-text text-center">"¡El mejor curso! Me dio las herramientas para mejorar la
                                 comunicación en el puente."</p>
-                            
+
                         </div>
 
                     </div>
@@ -180,10 +182,11 @@
     </section>
 
     <!-- Section: Contenidos -->
-    <section id="contenidos">
+    <section id="contenidos" class="bg-light py-5">
         <div class="container text-left">
             <div class="row align-items-center">
-                <div class="col">
+                <!-- Columna de texto -->
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <h3 class="display-6">Descripción del curso</h3>
                     <p class="lead">El curso está enfocado en que el aspirante logre:</p>
                     <ul>
@@ -194,48 +197,52 @@
 
                     <p class="lead">Contenido:</p>
                     <dl class="row">
-                        <dt class="col-sm-3">Gramática</dt>
-                        <dd class="col-sm-9">Tiempos verbales, preposiciones, conectores, puntuación.</dd>
+                        <dt class="col-sm-3 col-md-4">Gramática</dt>
+                        <dd class="col-sm-9 col-md-8">Tiempos verbales, preposiciones, conectores, puntuación.</dd>
 
-                        <dt class="col-sm-3">Comunicaciones externas</dt>
-                        <dd class="col-sm-9">
+                        <dt class="col-sm-3 col-md-4">Comunicaciones externas</dt>
+                        <dd class="col-sm-9 col-md-8">
                             <p>Distress traffic.</p>
                             <p>Safety communications.</p>
                             <p>Pilotage</p>
                             <p>Vessel traffic service</p>
                         </dd>
 
-                        <dt class="col-sm-3">Comunicaciones internas</dt>
-                        <dd class="col-sm-9">
+                        <dt class="col-sm-3 col-md-4">Comunicaciones internas</dt>
+                        <dd class="col-sm-9 col-md-8">
                             <p>Órdenes normalizadas al timón y la máquina.</p>
                             <p>Práctico en el puente.</p>
                             <p>Seguridad a bordo.</p>
                             <p>Manipulación de carga</p>
                         </dd>
                     </dl>
-                    <a href="#footer" class="btn btn-outline-secondary z-3 position-absolute">Contacto</a>
+                    <a href="#footer" class="btn btn-outline-secondary mt-3">Contacto</a>
                 </div>
-                <div class="col">
-                    <img src="assets/pilot1.jpg" class="rounded float-end" alt="">
+                <!-- Columna de imagen -->
+                <div class="col-12 col-lg-6 text-center">
+                    <img src="assets/pilot1.jpg" class="rounded img-fluid mx-auto d-block" alt="">
                 </div>
             </div>
         </div>
     </section>
 
+
     <!-- Section: Niveles -->
-    <section id="niveles" class="position-relative">
+    <section id="niveles" class="position-relative py-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col">
-                    <img src="assets/8.jpg" class="rounded float-start" alt="">
+                <!-- Columna de imagen -->
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0 text-center">
+                    <img src="assets/8.jpg" class="rounded img-fluid mx-auto d-block" alt="">
                 </div>
-                <div class="col text-end">
-                    <h3 class="display-6">Nivel 1 (Basico)</h3>
+                <!-- Columna de texto -->
+                <div class="col-12 col-lg-6 text-end">
+                    <h3 class="display-6">Nivel 1 (Básico)</h3>
                     <h3 class="display-6">Nivel 2 (Intermedio)</h3>
                     <h3 class="display-6">Nivel 3 (Avanzado)</h3>
                     <p class="lead">En cada nivel se profundiza en las áreas de: gramática, vocabulario específico,
                         entrenamiento auditivo del idioma y escritura.</p>
-                    <a href="#footer" class="btn btn-outline-secondary z-3 position-relative">Contacto</a>
+                    <a href="#footer" class="btn btn-outline-secondary mt-3">Contacto</a>
                 </div>
             </div>
             <img src="assets/rosa2.svg" class="position-absolute top-100 start-50 translate-middle"
@@ -250,7 +257,7 @@
                 <h3 class="display-6">Modalidad</h3>
                 <div class="col-3">
                     <img src="assets/webinar-icon.svg" alt="">
-                    <p class="fs-3">On-line</p>
+                    <p class="fs-3">Online</p>
                 </div>
                 <div class="col-3">
                     <img src="assets/teaching-icon.svg" alt="">
@@ -369,8 +376,8 @@
                     <div class="map-container">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.6659029077823!2d-58.31053941149788!3d-34.71360579346183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332750cecd88f%3A0xfa8ecfb737f1ce5b!2sFormosa%201019%2C%20B1876%20Bernal%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716762639204!5m2!1ses-419!2sar"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="w-100 h-100"></iframe>
                     </div>
                 </div>
             </div>
