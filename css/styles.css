@@ -4,13 +4,11 @@ body {
 
 .rosa-logo img {
     width: 6rem;
-    z-index: -1;
-    
+    z-index: -1;    
 }
 
 .navbar-brand img {
     margin-left: 1rem;
-
 }
  
 .carousel-container {
@@ -43,10 +41,6 @@ body {
 
 #contenidos img {
     width: 80%;
-}
-
-.spacer {
-    margin: 5%;
 }
 
 section {
